@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'single_pages',
+    'cbv_blog',
+    'cbv_single_pages'
 ]
 
 MIDDLEWARE = [

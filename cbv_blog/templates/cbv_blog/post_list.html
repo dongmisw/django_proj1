@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post_list html</title>
+</head>
+<body>
+
+BLOG 입니다.post_list.html입니다.
+
+{%  for post in post_list %}
+    <h3> {{ post.title }}</h3>
+    <h3> {{ post.content }}</h3>
+    <h3> {{ post.created_at }}</h3>
+{% endfor %}
+</body>
+</html>

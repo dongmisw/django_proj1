@@ -22,5 +22,6 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
 
     path('',include('single_pages.urls')),
+    path('cbv_blog/', include('cbv_blog.urls')),
 
 ]
