@@ -13,3 +13,9 @@ def index(request):
             'posts': Post.objects.all().order_by('-pk'),
         }
     )
+def single_post_page(request, post_id):
+    post = Post.objects.get(pk=post_id)
+    return render(request,
+                  'blog/single_post_page.html',
+                  {'post': post}
+                  )

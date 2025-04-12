@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Post Page - {{ post.title }}</title>
+</head>
+<body>
+    <nav><a href="/blog/">목록</a></nav>
+    <h1>single post page</h1>
+    {{  post }}
+
+    <h2>{{ post.title }}</h2>
+    <h2>{{ post.created_at }}</h2>
+    <h2>{{ post.content }}</h2>
+    <h2>댓글 들어오는 자리</h2>
+</body>
+</html>
